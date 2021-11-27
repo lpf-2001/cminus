@@ -1,1 +1,2 @@
 # cminus
+如果使用的wsl，diff实验结果和标准结果不一样的话（我使用的是sublime），尝试更改sublime的line_ending改为unix。
