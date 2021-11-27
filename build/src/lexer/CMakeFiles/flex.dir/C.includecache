@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lexical_analyzer.h
+stdio.h
+-
+
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/build/src/lexer/lex.yy.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+stdio.h
+-
+stdlib.h
+-
+lexical_analyzer.h
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/build/src/lexer/lexical_analyzer.h
+unistd.h
+-
+

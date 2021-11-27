@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ast.hpp
+syntax_tree.h
+../include/syntax_tree.h
+vector
+-
+memory
+-
+
+../include/logging.hpp
+iostream
+-
+sstream
+-
+cstdlib
+-
+
+../include/syntax_tree.h
+stdio.h
+-
+
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/src/common/ast.cpp
+ast.hpp
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/src/common/ast.hpp
+cstring
+-
+stack
+-
+iostream
+-
+
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/src/common/logging.cpp
+logging.hpp
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/src/common/logging.hpp
+

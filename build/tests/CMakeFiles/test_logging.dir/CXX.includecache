@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/logging.hpp
+iostream
+-
+sstream
+-
+cstdlib
+-
+
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/tests/test_logging.cpp
+logging.hpp
+/mnt/c/Users/86178/Desktop/cminus_compiler-2021-fall/tests/logging.hpp
+
